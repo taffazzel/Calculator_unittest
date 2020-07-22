@@ -13,7 +13,7 @@ class CalculationTest(unittest.TestCase):
         print("I am in test_plus")
         ans = self.lib.plus(5,3)
         print "Ans%s"%ans
-        self.assertEqual(ans,9)
+        self.assertEqual(ans,8)
     def test_minus(self):
         print "I am in minus"
         mins = self.lib.minus(7,4)
