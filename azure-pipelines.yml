@@ -29,3 +29,4 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest source/test/Calculation_Test.py
   displayName: 'pytest'
+
